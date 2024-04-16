@@ -15,7 +15,7 @@
 const testingButton = document.querySelector('#testingButton');
 const startButton = document.querySelector('button');
 let cardImg = document.querySelector('img');
-const imgContainer = document.querySelector('.parent');
+const imgContainer = document.querySelector('#grid-container');
 
 function getRandomImage() {
     getRandomImageURL(()=>{
