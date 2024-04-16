@@ -1,30 +1,23 @@
-#grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  #grid-container img {
-    padding: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    height: 150px;
-    align-content: center;
-  }
-  #header{
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: mediumblue;
-    text-align: center;
-  }
-
-  .parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#grid-container img {
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 150px;
+  align-content: center;
+}
+#header{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: mediumblue;
+  text-align: center;
+}
