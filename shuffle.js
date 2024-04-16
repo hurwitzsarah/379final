@@ -1,3 +1,4 @@
+// from oney ps4
 function shuffleArray(array) {
     const shuffledArray = array.slice(); // Copy the array
 
@@ -8,14 +9,3 @@ function shuffleArray(array) {
     }
     return shuffledArray; // Return the shuffled copy
 }
-// function shuffleCards() {
-//     let currentIndex = cards.length,
-//       randomIndex,
-//       temporaryValue;
-//     while (currentIndex !== 0) {
-//       randomIndex = Math.floor(Math.random() * currentIndex);
-//       currentIndex -= 1;
-//       temporaryValue = cards[currentIndex];
-//       cards[currentIndex] = cards[randomIndex];
-//       cards[randomIndex] = temporaryValue;
-//     }
