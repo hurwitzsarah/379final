@@ -1,15 +1,15 @@
 // import _ from 'lodash';
 
-const cardImgs = [
-    {'src' : './images/northquad.jpeg'},
-    {'src' : './images/angell.jpg'},
-    {'src' : './images/bell.jpg'},
-    {'src' : './images/cube.jpg'},
-    {'src' : './images/lawlib.jpg'},
-    {'src' : './images/naturalhistorymuse.jpg'},
-    {'src' : './images/union-01.jpg'},
-    {'src' : './images/ross.jpg'},
-  ]
+// const cardImgs = [
+//     {'src' : './images/northquad.jpeg'},
+//     {'src' : './images/angell.jpg'},
+//     {'src' : './images/bell.jpg'},
+//     {'src' : './images/cube.jpg'},
+//     {'src' : './images/lawlib.jpg'},
+//     {'src' : './images/naturalhistorymuse.jpg'},
+//     {'src' : './images/union-01.jpg'},
+//     {'src' : './images/ross.jpg'},
+//   ]
 
 
 const testingButton = document.querySelector('#testingButton');
