@@ -15,10 +15,10 @@
 const testingButton = document.querySelector('#testingButton');
 const startButton = document.querySelector('button');
 let cardImg = document.querySelector('img');
-const imgContainer = document.querySelector('#grid-container');
+const imgContainer = document.querySelector('.parent');
 
 function getRandomImage() {
-    getRandomImageURL((url)=>{
+    getRandomImageURL(()=>{
         // cardImg.setAttribute('src', url);
         // document.body.append(cardImg);
         console.log(listOfImages);
