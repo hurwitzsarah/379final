@@ -5,15 +5,24 @@
   padding: 10px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: auto;
 }
-#grid-container img {
-  padding: 5px;
+#grid-container div {
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  align-content: center;
+}
+#grid-container div img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 250px;
   height: 150px;
-  align-content: center;
+  height: auto;
+  /* margin-top: 20px; */
 }
 #header{
   font-size: 25px;

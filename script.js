@@ -15,7 +15,7 @@
 const testingButton = document.querySelector('#testingButton');
 const startButton = document.querySelector('button');
 let cardImg = document.querySelector('img');
-const imgContainer = document.querySelector('.parent');
+const imgContainer = document.querySelector('#grid-container');
 
 function getRandomImage() {
     getRandomImageURL(()=>{
@@ -39,10 +39,10 @@ startButton.addEventListener('click', ()=>{
         // console.log(listOfImages);
     }
 });
-
 testingButton.addEventListener('click', ()=>{
     console.log('clicked');
     console.log(listOfImages);
+    listOfImages = shuffleArray(listOfImages);
     for(let idx=0; idx<listOfImages.length; idx++){
         const imageURL = listOfImages[idx];
         console.log(imageURL);
@@ -57,4 +57,7 @@ testingButton.addEventListener('click', ()=>{
     }
 });
 
-      
+const shuffleArr = document.querySelector('#shuffleButton');
+shuffleArr.addEventListener('click', ()=>{ 
+    listofImages = shuffleArray(listOfImages);
+ });
