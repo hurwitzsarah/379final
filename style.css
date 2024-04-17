@@ -26,7 +26,48 @@
 }
 #header{
   font-size: 25px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: mediumblue;
+  font-family: Didot;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  color: hotpink;
   text-align: center;
+}
+
+#easy, #medium, #hard {
+  font-family: Didot;
+  font-size: 20px;
+  display: inline-block;
+  background-color: hotpink;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 31%;
+};
+
+
+#image-area{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 150px;
+  height: auto;
+  margin-top: 20px;
+}
+
+
+#time-display {
+  font-size: 25px;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: Didot;
+  color: hotpink;
+  text-align: center;
+  padding: 20px;
+  background-color: ghostwhite;
+  border: 2px solid hotpink;
+}
+
+body {
+  font-family: Didot;
 }

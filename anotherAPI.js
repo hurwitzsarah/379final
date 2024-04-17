@@ -1,14 +1,26 @@
+const container = document.querySelector("#grid-container");
+let cardTag;
 
-// let category = document.querySelector('#inpt').value;
+
+function getPhotos(images) {
+    images.map(image => {
+      cardTag = `<div class="card">
+               <img src=${image.src.tiny} />
+          </div>`;
+      container.innerHTML += cardTag;
+    })
+ }
+
+
 let listOfImages = [];
+// let category = document.querySelector('#user_inpt').value;
 function getRandomImageURL() {
-    fetch(`https://picsum.photos/200`)
-        .then(response => response.blob())
-        .then((blob) => {
-            const imgURL = URL.createObjectURL(blob);
-            const duplicateimgURL = URL.createObjectURL(blob);
-            listOfImages.push(imgURL);
-            listOfImages.push(duplicateimgURL);
+    fetch(`https://api.pexels.com/v1/search?query=${category}&per_page=${numOfImages}`,{
+    headers: { Authorization: 'lOf0IZEqVcSssBAijGjOY9hapFwmRgzrfqm7BPYxsnQlnuFeipKXQ8nH'}})
+        .then(response => response.json())
+        .then((data) => {
+            console.log(data);
+            getPhotos(data.photos);
+            getPhotos(data.photos);
         })
-        .catch(error => console.error('Error fetching data: ', error));
   }
