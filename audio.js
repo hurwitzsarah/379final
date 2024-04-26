@@ -2,7 +2,7 @@ const audioContext = new AudioContext();
 const countdownAudio = new Audio('audio/mixkit-simple-game-countdown-921.wav');
 const ranOutAudio = new Audio('audio/mixkit-funny-fail-low-tone-2876.wav');
 const turnCardAudio = new Audio('audio/mixkit-short-wind-swoosh-1461.wav');
-const winningAudio = new Audio('audio/mixkit-winning-chimes-2015.wav');
+const winningAudio = new Audio('audio/mixkit-ethereal-fairy-win-sound-2019.wav');
 const correctAudio = new Audio('audio/mixkit-correct-answer-tone-2870.wav');
 const incorrectAudio = new Audio('audio/mixkit-wrong-electricity-buzz-955.wav');
 
